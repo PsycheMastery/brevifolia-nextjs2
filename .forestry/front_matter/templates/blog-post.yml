@@ -1,4 +1,14 @@
 ---
 label: blog post
 hide_body: true
-fields: []
+fields:
+- name: whats_health
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: whats health
+  description: i dont know what it is
